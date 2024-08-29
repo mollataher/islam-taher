@@ -1,0 +1,181 @@
+﻿@charset "urf-8";
+
+body{
+	background-color:#ffffff;
+	color:#333333;
+	font-family:"メイリオ","Hiragion Kaku Gothic Pro",sans-serif;
+	margin:0;
+	padding:0;
+}
+
+p{
+	font-size:90%;
+	line-height:1.8;
+}
+
+h1{
+	font-size:180%;
+}
+
+h2{
+	font-size:120%;
+	border-bottom:1px dashed #003366;
+	border-left:10px solid #003366;
+	padding-left:7px;
+}
+
+footer{
+	text-align:center;
+	border-top:5px solid #003366;
+}
+
+article{
+	position:relative;
+}
+
+.catch{
+	position:absolute;
+	top:20px;
+	left:30px;
+	color:#ffffff;
+	text-shadow:0 5px 10px #333333;
+}
+
+.maingazo{
+	background-color:#0099ff;
+}
+
+header{
+	background-color:#003366;
+	color:#ffffff;
+}
+
+ul{
+	list-style:none;
+	padding-left:0;
+	line-height:1.8;
+	font-size:90%;
+}
+
+ul time{
+	border-radius:10px;
+	background-color:#999999;
+	color:#ffffff;
+	font-size:90%;
+	padding-left:5px;
+	padding-right:5px;
+	margin-right:5px;
+}	
+
+nav ul{
+	font-weight:bold;
+	text-align:right;
+	padding-top:26px;
+	padding-bottom:5px;
+	margin:0;
+}
+
+nav li{
+	display:inline;
+	padding-left:10px;
+	padding-right:10px;
+	border-right:1px solid #ffffff;
+}
+
+header img{
+	float:left;
+}
+
+article{
+	clear:both;
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.header-in{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* 	第５章 */
+.sabu-h1 {
+	background-image:linear-gradient(to left,#fff,#dcdcdc) ;
+	padding-left: 10px;
+	border-left:15px solid #036;
+}
+.point-list {
+	list-style-image: url(../image/list.gif);
+	font-weight: bold;
+	margin-left: 30px;
+}
+.point-img {
+	float: right;
+	margin-left: 20px;
+}
+.sentou {
+	clear: both;
+	text-align: right;
+}
+ol li {
+	display: inline;
+	margin-right: 5px;
+	font-size:80%;
+}
+ol {
+	padding-left: 0;
+}
+.page {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+/*959px以下の場合*/
+
+@media(max-width:959px){
+	header img{
+		float:none;
+	}
+
+	nav ul{
+		text-align:left;
+		padding:0;
+	}
+
+	article{
+		width:auto;
+	}
+
+	article img{
+		max-width:100%;
+		height:auto;
+	}
+
+	.header-in{
+		width:auto;
+	}
+}
+
+/* 600px以下の場合 */
+
+@media(max-width:600px){
+	nav li{
+		font-size:75%;
+		padding-left:2px;
+		padding-right:2px;
+	}
+
+	.catch{
+		top:5px;
+		left:5px;
+	}
+	.point-img{
+		float:none;
+	}
+}
+
+
